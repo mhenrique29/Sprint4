@@ -184,6 +184,8 @@ Monitoramento
 Acesse http://localhost:8080/actuator/health para verificar o status da aplicação.
 Use ferramentas como Grafana para visualizar métricas expostas pelo Actuator.
 
+![image](https://github.com/user-attachments/assets/5fc0ebeb-8b50-4ba5-af3e-fd997395e106)
+
 
 Integrantes
 
