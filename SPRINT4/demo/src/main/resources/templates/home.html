@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Suporte Stellantis - Home</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Suporte Stellantis</h1>
+    </header>
+    
+    <nav>
+        <a href="/carros" class="botao">Listar Carros</a>
+        <a href="/carros/novo" class="botao">Adicionar Carro</a>
+        <a href="/usuarios" class="botao">Listar Usuários</a>
+        <a href="/usuarios/novo" class="botao">Adicionar Usuário</a>
+    </nav>
+    
+    <main>
+        <section>
+            <h2 th:text="${message}">Bem-vindo ao sistema de suporte!</h2>
+            <p>Aqui você pode gerenciar carros e usuários de forma fácil e rápida.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Stellantis. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

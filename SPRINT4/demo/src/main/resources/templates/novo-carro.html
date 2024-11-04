@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Novo Carro</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <h1>Adicionar Novo Carro</h1>
+    <form action="/carros/salvar" method="post">
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo" required>
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" required>
+
+        <button type="submit" class="botao">Salvar</button>
+    </form>
+    <a href="/carros" class="botao">Voltar</a>
+</body>
+</html>
