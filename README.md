@@ -85,8 +85,8 @@ Adicione as configurações do banco de dados e da IA em application.properties:
 
 
 spring.datasource.url=jdbc:oracle:thin:@//oracle.fiap.com.br:1521/ORCL
-spring.datasource.username=RM98768
-spring.datasource.password=220405
+spring.datasource.username=SEU_USUARIO
+spring.datasource.password=SUA_SENHA_AQUI
 spring.jpa.database-platform=org.hibernate.dialect.OracleDialect
 
 # Azure Cognitive Services
@@ -157,12 +157,12 @@ Adicione as configurações do banco de dados e da IA em application.properties:
 properties
 
 spring.datasource.url=jdbc:oracle:thin:@//oracle.fiap.com.br:1521/ORCL
-spring.datasource.username=RM98768
-spring.datasource.password=220405
+spring.datasource.username=SEU_USUARIO
+spring.datasource.password=SUA_SENHA_AQUI
 spring.jpa.database-platform=org.hibernate.dialect.OracleDialect
 
 # Azure Cognitive Services
-azure.cognitive.subscription-key= 6hchHPOFpqgOo1PIeYxvEHIL8bOiWw3wjvkf6VxJ9Ffy06hUOmAeJQQJ99AKACZoyfiXJ3w3AAAEACOGipHv
+azure.cognitive.subscription-key=SUA_CHAVE_AQUI
 azure.cognitive.endpoint= https://api-web-rm551459.cognitiveservices.azure.com/
 Compile o projeto com o Maven:
 
